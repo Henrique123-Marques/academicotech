@@ -1,4 +1,4 @@
-'''Exercício 02 : Criar um programa que apresente a tabuada do valor digitado pelo usuário.'''
+'''Exercício 02 : Criar um programa que apresente a tabuada do valor digitado pelo usuário. '''
 class Ex2():
 	def __init__(self):
 		self.tabuada = float(input('Digite um valor para saber sua tabuada: '))
