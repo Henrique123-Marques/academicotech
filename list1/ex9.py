@@ -19,4 +19,4 @@ obj9 = ex9()
 distancia = obj9.distancia()
 litros = obj9.Litros_Gastos()
 
-print(f'A Distancia percorrida foi de: {distancia}km e a quantidade de litros gastos na viagem foi: {litros:.2f} litros')
+print(f'A Distancia percorrida foi de: {distancia} km e a quantidade de litros gastos na viagem foi: {litros:.2f} litros')
