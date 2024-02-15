@@ -1,3 +1,6 @@
-minha_lista = [10, 20, 30, 40]
-minha_lista[1], minha_lista[2] = minha_lista[2], minha_lista[1]
-print(minha_lista)  # Resultado: [10, 30, 20, 40]
+def troca_valores(lista, indice1, indice2):
+    lista[indice1], lista[indice2] = lista[indice2], lista[indice1]
+    return lista
+
+minha_lista = [1, 2, 3, 4, 5]
+print(troca_valores(minha_lista, 1, 3))  # Saída: [1, 4, 3, 2, 5]
