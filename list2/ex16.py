@@ -19,7 +19,7 @@ d.    Maior de 18 à adulto"""
         elif arg >= 11 and arg <= 17:
             return 'Infantil C'
         elif arg >= 18:
-            return 'Maior de 18 à adulto'
+            return 'Maior de 18, adulto'
 
 obj16 = Ex16(0)
 idade_categoria = obj16.Categoria(0)

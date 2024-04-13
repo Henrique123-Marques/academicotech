@@ -1,4 +1,4 @@
-class Ex17(object):
+class Ex17(object): 
     """Criar um programa que leia dois valores reais e apresente o resultado da operação de acordo
      com a escolha do usuário::
 a.    +  adição
