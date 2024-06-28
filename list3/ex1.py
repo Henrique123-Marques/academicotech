@@ -5,14 +5,22 @@ class Ex1(object):
 		super(Ex1, self).__init__()
 
 	def Fibonacci(self):
+		if n <= 0:
+			return []
+		elif n == 1:
+			return [0]
+		elif n == 2:
+			return [0,1]
+
+		sequencia = [0,1]
+		while len(sequencia) < n:
+			sequencia.append(sequencia[-1] + sequencia[-2])
+		return sequencia	
+
+	def run(self):
 		n = float(input('Digite um numero: '))
-		if n <= 1:
-			return n
-		else:
-			return Fibonacci(n-1) + Fibonacci(n-2)
+		seq_fibonacci = self.Fibonacci(n)
+		print(f'Sequencia de Fibonacci: {seq_fibonacci}')
 
 obj1 = Ex1()
-seq_fibonacci = obj1.Fibonacci()
-print(f'Sequencia de Fibonacci: {seq_fibonacci}')
-		
-		
+obj1.run()
